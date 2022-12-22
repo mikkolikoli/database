@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using database;
+
+DatabaseManagementSystem dbms = new();
+
+dbms.CreateDatabase("db1");
 
